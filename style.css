@@ -1,10 +1,10 @@
 *{margin: 0; padding:0}
 header{
-	heigth: 150px;
+	height: 150px;
 	diplay: flex;
+	align-items: center;
 	justify-content; space-around;
 	border: 1px solid black;
-
 }
 header nav ul{
 	display: flex;
@@ -12,6 +12,10 @@ header nav ul{
 header nav ul li{
 	list-style:none;
 	margin: 10px;
+}
+header nav ul li a{
+	text-decoration: none;
+	color: #333;
 }
 header img{
 	heigth: 100%;
