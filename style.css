@@ -11,5 +11,8 @@ header nav ul{
 }
 header nav ul li{
 	list-style:none;
-	margin: 10px
+	margin: 10px;
+}
+header img{
+	heigth: 100%;
 }
