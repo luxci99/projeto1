@@ -1,4 +1,8 @@
 *{margin: 0; padding:0}
-body{
-	background: red;
+header{
+	heigth: 150px;
+	diplay: flex;
+	justify-content; space-around;
+	border: 1px solid black;
+
 }
