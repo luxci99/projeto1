@@ -6,3 +6,10 @@ header{
 	border: 1px solid black;
 
 }
+header nav ul{
+	display: flex;
+}
+header nav ul li{
+	list-style:none;
+	margin: 10px
+}
