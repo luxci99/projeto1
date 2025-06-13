@@ -5,6 +5,7 @@ header{
 	align-items: center;
 	justify-content: space-around;
 	border: 1px solid black;
+	background: yellow;
 }
 header nav ul{
 	display: flex;
@@ -18,32 +19,30 @@ header nav ul li a{
 	color: #333;
 }
 header nav ul li a:hover{
-	color: yellow;
+	color: red;
 }
 header img{
 	height: 100%;
 }
 section#banner{
 	height: 350px;
-	background: blue;
+	background: red;
 }
 section#noticias{
 	width: 1100px;
 	height: auto;
 	margin: 0 auto;
-	border: 1px solid black;
 }
 section#noticias ul li{
 	list-style:none;
 	width: 350px;
 	height: 350px;
-	background: gray;
+	background: red;
 }
 section#noticias img{
 	text-align: center;
-	height: 100px;
+	height: 150px;
 	width: 100%;
-	box-shadow: 5px 0px 0px 0px #00000030;
 }
 section#noticias .categoria{
 	text-align: center;
@@ -63,4 +62,12 @@ section#noticias h3{
  font-family: Arial;
  margin: 25px 0;
  text-transform: uppercase;
+}
+section#noticias ul li a{
+	text-align: center;
+	font-size: 19px;
+	color: black;
+	background: yellow;
+	display: block;
+	padding: 5px 0;
 }
