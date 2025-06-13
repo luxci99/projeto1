@@ -48,7 +48,9 @@ section#noticias img{
 section#noticias .categoria{
 	text-align: center;
 	background: #900;
-	color: #fff
+	color: #fff;
+	display: block;
+	padding: 5px;
 }
 section#noticias h2{
 	font-size: 35px;
