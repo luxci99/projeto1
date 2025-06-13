@@ -30,7 +30,7 @@ section#banner{
 section#noticias{
 	width: 1100px;
 	height: auto;
-	margin: 0;
+	margin: 0 auto;
 	border: 1px solid black;
 }
 section#noticias ul li{
@@ -40,14 +40,23 @@ section#noticias ul li{
 	background: gray;
 }
 section#noticias img{
- text-aling: center;
- height: 1oopx;
- width: 100%;
- box-shadow: 5px 0px 0px 0px #00000030;
-
+	text-align: center;
+	height: 100px;
+	width: 100%;
+	box-shadow: 5px 0px 0px 0px #00000030;
 }
-section#noticias ,categoria{
+section#noticias .categoria{
+	text-align: center;
+}
+section#noticias h2{
+	font-size: 35px;
+	color: #333333;
+	text-align: center;
+}
+section#noticias h3{
  text-align: center;
-
-
-	
+ font-size: 35px;
+ font-family: Arial;
+ margin: 25px 0;
+ text-transform: uppercase;
+}
