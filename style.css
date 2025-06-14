@@ -33,10 +33,14 @@ section#noticias{
 	height: auto;
 	margin: 0 auto;
 }
+section#noticias ul{
+	display: flex;
+}
 section#noticias ul li{
 	list-style:none;
 	width: 350px;
 	height: 350px;
+	margin: 5px;
 	background: red;
 }
 section#noticias img{
