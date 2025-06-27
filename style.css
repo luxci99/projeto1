@@ -82,3 +82,7 @@ section#noticias ul li p{
 	text-align: center;
 	margin: 15px 0;
 }
+section#projeto ul li h3{
+display: flex;
+flex-wrap: wrap;
+}
